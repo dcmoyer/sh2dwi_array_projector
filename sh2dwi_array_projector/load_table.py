@@ -121,7 +121,7 @@ class BMatTable():
     #  #return self.weight_lookup_table[ key ]
     #  return self.weight_lookup_table.lookup( key )
 
-    return get_one_hot_func, self.b_mat_tensor, self.weight_tensor 
+    return get_one_hot_func, self.b_mat_tensor, self.weight_tensor, self.one_hot_lookup.init
 
 ##
 ## This function takes b_mat_tensor stacks and indicator vectors to specific
